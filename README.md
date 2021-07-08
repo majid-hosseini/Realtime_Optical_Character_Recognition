@@ -9,7 +9,7 @@ In this project OpenCV, Python, and Tesseract are used to implement Optical Char
 
 Tesseract.v4 is utilized here which includes a highly accurate deep learning-based model for text recognition. The OpenCV OCR pipeline here includes two steps. The text detection is performed in the first step using OpenCV’s EAST text detector, a highly accurate deep learning algorithm trained to detect text in natural scene images. In the second step, the ROI (region of interest) of the detected texts will be passed to Tesseract to extract characters.  
 
-##Sample Output
+## Sample Output
 
 Following is a sample output of **Text Detection** function: 
 ![text_detection.png](images/text_detection.png)
@@ -23,7 +23,7 @@ Following is a sample output of **Realtime Text Detection** function:
 ![video_output.gif](images/video_output.gif)
 
 
-##Tesseract
+## Tesseract
 Tesseract is a highly popular open source OCR engine, currently supported by Google. It needs to be installed, first. Please follow [this link](https://github.com/tesseract-ocr/tessdoc#binaries) for the instruction depending on the operating system:
 
 ![Tesseract_OCR_logo.png](images/Tesseract_OCR_logo.png)
