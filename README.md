@@ -38,8 +38,8 @@ The EAST text detector is pre-trained CNN network for text detection and ready t
 ## Dependencies
 * Pandas
 * Numpy
-*OpenCV
-*Tesseract
+* OpenCV
+* Tesseract
 
 
 How to use?
